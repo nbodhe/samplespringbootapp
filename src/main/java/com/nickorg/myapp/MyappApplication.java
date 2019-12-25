@@ -15,7 +15,7 @@ public class MyappApplication {
 	
 	@GetMapping("/")
 	public String display() {
-		return "Hello World";
+		return "VERSION:1.0-Hello World";
 	}
 
 }
